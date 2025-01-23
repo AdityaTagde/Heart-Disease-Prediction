@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50; /* Green color for health-related topics */
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+            color: #2E7D32; /* Darker green for prediction result */
+        }
+
+        .suggestions {
+            margin-top: 20px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .suggestions li {
+            margin-bottom: 15px;
+            padding: 12px;
+            background-color: #f1f8e9; /* Light green background for suggestions */
+            border-left: 5px solid #388E3C; /* Green accent on the left */
+            border-radius: 6px;
+            color: #333;
+        }
+
+        .suggestions li:nth-child(even) {
+            background-color: #e8f5e9; /* Alternate light green for better readability */
+        }
+
+        .suggestions li:hover {
+            background-color: #dcedc8; /* Slightly darker green on hover */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Prediction Result</h1>
+    <h3>{{ prediction }}</h3> <!-- Displaying the prediction result here -->
+    <ul class="suggestions">
+        {% for suggestion in suggestions %}
+            <li>{{ suggestion }}</li> <!-- Suggestions list -->
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
