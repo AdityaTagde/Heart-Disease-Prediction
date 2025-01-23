@@ -1,6 +1,6 @@
-# ❤️ Heart Disease Prediction
+# 🫀 Heart Disease Prediction 🫀
 
-This project aims to predict the presence of heart disease in patients based on various medical features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, electrocardiographic results, maximum heart rate, exercise-induced angina, ST depression induced by exercise, and several other features. The prediction model is built using machine learning algorithms, and the best-performing model is saved for later use. 💖
+This project aims to predict the presence of heart disease in patients based on various medical features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, electrocardiographic results, maximum heart rate, exercise-induced angina, ST depression induced by exercise, and several other features. The prediction model is built using machine learning algorithms, and the best-performing model is saved for later use. 🫀
 
 ## 📋 Table of Contents
 - [Description](#description)
