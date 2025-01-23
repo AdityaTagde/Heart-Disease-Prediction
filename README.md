@@ -118,5 +118,9 @@ prediction = model.predict([[57, 1, 0, 150, 276, 0, 0, 112, 1, 0.6, 1, 1, 1]])
 print("Prediction:", prediction)
 ```
 
+## 🖼️ Screenshots
+
+![App Screenshot]()
+
 
 
