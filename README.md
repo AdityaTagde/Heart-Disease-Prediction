@@ -9,8 +9,7 @@ This project aims to predict the presence of heart disease in patients based on 
 - [Steps](#steps)
 - [Model](#model)
 - [Usage](#usage)
-- [License](#license)
-
+  
 ## 📝 Description
 
 This project uses machine learning to predict whether a patient is likely to have heart disease based on a set of health-related features. The dataset is split into training and test sets, and multiple models are evaluated for accuracy. The model with the best performance is selected and saved for future predictions. Early detection of heart disease is crucial for timely intervention and better patient outcomes. 💓
