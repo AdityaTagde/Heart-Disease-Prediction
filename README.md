@@ -117,10 +117,16 @@ with open('model.pkl', 'rb') as f:
 prediction = model.predict([[57, 1, 0, 150, 276, 0, 0, 112, 1, 0.6, 1, 1, 1]])
 print("Prediction:", prediction)
 ```
-
 ## 🖼️ Screenshots
 
-![App Screenshot]()
+Inputs:
+
+![App Screenshot](https://github.com/AdityaTagde/Heart-Disease-Prediction/blob/main/Input-1.png)
+
+![App Screenshot](https://github.com/AdityaTagde/Heart-Disease-Prediction/blob/main/input-2.png)
+
+Output:
+![App Screenshot](https://github.com/AdityaTagde/Heart-Disease-Prediction/blob/main/output.png)
 
 
 
